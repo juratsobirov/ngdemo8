@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:ngdemo8/pages/applifecycle_page.dart';
 import 'package:ngdemo8/pages/valuekey_page.dart';
 import 'package:ngdemo8/pages/widgetlifecycle_page.dart';
+import 'pages/counter_page.dart';
+import 'pages/globalkey_page.dart';
 import 'pages/objectkey_page.dart';
 import 'pages/uniquekey_page.dart';
 
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ObjectkeyPage(),
+      home: GlobalkeyPage(),
     );
   }
 }
